@@ -24,7 +24,7 @@ You will need to run this on a Windows computer with Powershell enabled.
 <h3>Example:</h3>
 <p>To use the script you just need to follow the syntax below:</p>
 <code>
-  Powershell.exe -executionpolicy remotesigned -File  %complete-path-to-file%\ie -url %URL-you-want-opened
+  Powershell.exe -executionpolicy remotesigned -File  %complete-path-to-file%\ie_window -url %URL-you-want-opened
   </code>
   <h3>Google Example</h3>
   <code>Powershell.exe -executionpolicy remotesigned -File  C:\Windows\System32\ie_window.ps1 -url https://www.google.com</code>
