@@ -1,4 +1,4 @@
-
+#ie_window
 <h2>IE Wrapper</h2>
 <p>
   This script is meant to be used to wrap around internet explorer.
