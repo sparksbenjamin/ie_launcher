@@ -24,11 +24,11 @@ You will need to run this on a Windows computer with Powershell enabled.
 <h3>Example:</h3>
 <p>To use the script you just need to follow the syntax below:</p>
 <code>
-  Powershell.exe -executionpolicy remotesigned -windowstyle hidden -noprofile  -File  %complete-path-to-file%\ie_window -url %URL-you-want-opened
+  Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File  %complete-path-to-file%\ie_window -url %URL-you-want-opened
   </code>
   <h3>Google Example</h3>
-  <code>Powershell.exe -executionpolicy remotesigned -windowstyle hidden -noprofile -File  C:\Windows\System32\ie_window.ps1 -url https://www.google.com</code>
+  <code>Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File  C:\Windows\System32\ie_window.ps1 -url https://www.google.com</code>
   <h3>GitHub Example</h3>
-  <code>Powershell.exe -executionpolicy remotesigned -windowstyle hidden -noprofile  -File  C:\Windows\System32\ie_window.ps1 -url https://www.google.com</code>
+  <code>Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File  C:\Windows\System32\ie_window.ps1 -url https://www.google.com</code>
   <h3>Local Server</h3>
-  <code>Powershell.exe -executionpolicy remotesigned -windowstyle hidden -noprofile  -File  C:\Windows\System32\ie_window.ps1 -url https://localhost</code>
+  <code>Powershell.exe -executionpolicy remotesigned -windowstyle hidden -File  C:\Windows\System32\ie_window.ps1 -url https://localhost</code>
